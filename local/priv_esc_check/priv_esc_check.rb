@@ -17,13 +17,15 @@ class MetasploitModule < Msf::Post
     super(update_info(info,
       'Name'                 => "Priv Exploit",
       'Description'          => %q{
-        
+         Find Kernel-Vulnerables exploits. 
       },
       'License'              => MSF_LICENSE,
       'Platform'             => ['windows', 'linux'],
       'SessionTypes'         => ['meterpreter'],
       'Author'               => [
-        
+         'rasta-mouse' # https://github.com/rasta-mouse/Sherlock
+         'PenturaLabs' # https://github.com/PenturaLabs/Linux_Exploit_Suggester
+         'Exist@Syclover'
         ]
     ))
   end
