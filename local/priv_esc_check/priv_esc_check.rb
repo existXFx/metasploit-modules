@@ -23,8 +23,8 @@ class MetasploitModule < Msf::Post
       'Platform'             => ['windows', 'linux'],
       'SessionTypes'         => ['meterpreter'],
       'Author'               => [
-         'rasta-mouse' # https://github.com/rasta-mouse/Sherlock
-         'PenturaLabs' # https://github.com/PenturaLabs/Linux_Exploit_Suggester
+         'rasta-mouse', # https://github.com/rasta-mouse/Sherlock
+         'PenturaLabs', # https://github.com/PenturaLabs/Linux_Exploit_Suggester
          'Exist@Syclover'
         ]
     ))
